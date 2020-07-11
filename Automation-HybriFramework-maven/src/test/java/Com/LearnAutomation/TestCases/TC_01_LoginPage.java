@@ -12,7 +12,8 @@ public class TC_01_LoginPage extends BaseClass {
 	
 	@Test
 	public void  loginpageApp()
-	{
+	{// Report is available
+		
 		logger =report.createTest("Login to HRM");
 		//ExcelDataProvider excel = new ExcelDataProvider();
 		LoginPage log = PageFactory.initElements(driver, LoginPage.class);
